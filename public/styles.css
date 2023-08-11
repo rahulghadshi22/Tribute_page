@@ -49,6 +49,11 @@ img{
   display:block;
   max-width:100%;
 }
+@media(max-wdth:460px){
+  img{
+    width:60%;
+  }
+}
 #img-caption{
   margin:15px 0 5px 0;
   object-fit:cover;
