@@ -17,22 +17,13 @@ body{
   padding-bottom:6px;
   border-radius:3px;
 }
-@media(max-width:460px){
-  #main{
-    margin:0;
-  }
-}
+
 #title{
   font-size:4rem;
   color: #dad0c2;
   margin-bottom: 0;
 }
-@media (max-width: 460px) {
-  #title {
-    font-size: 3.5rem;
-    line-height: 1.2;
-  }
-}
+
 h3{
   color:#3C2A21;
   color: #dad0c2;
@@ -52,12 +43,33 @@ img{
 @media(max-width:460px){
   img{
     width:80%;
+    
+  }
+   #img-caption{
+    font-size:1.3rem;
+  }
+  #references{
+  font-size: 2rem;
+  }
+  #title {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+  #main{
+    margin:0;
+  }
+  li{
+    font-size:1.3rem;
+  }
+  #headline{
+    font-size:2.8rem;
   }
 }
 #img-caption{
   margin:15px 0 5px 0;
   object-fit:cover;
 }
+
 h3{
   margin:50px 0;
   text-align:center;
@@ -94,8 +106,4 @@ blockquote{
 #references{
   font-size:2.10rem;
 }
-@media (max-width:460px) {
-  #references{
-  font-size: 2rem;
-  }
-}
+
